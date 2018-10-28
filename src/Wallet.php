@@ -1,6 +1,6 @@
 <?php
 
-namespace Blocktrail\SDK;
+namespace Ameliegardiner\SDK;
 
 use Btccom\BitcoinCash\Transaction\SignatureHash\SigHash as BchSigHash;
 use Btccom\BitcoinCash\Transaction\Factory\Checker\CheckerCreator as BchCheckerCreator;
@@ -26,9 +26,9 @@ use BitWasp\Bitcoin\Transaction\Transaction;
 use BitWasp\Bitcoin\Transaction\TransactionInterface;
 use BitWasp\Buffertools\Buffer;
 use Btccom\BitcoinCash\Address\CashAddress;
-use Blocktrail\SDK\Bitcoin\BIP32Key;
-use Blocktrail\SDK\Bitcoin\BIP32Path;
-use Blocktrail\SDK\Exceptions\BlocktrailSDKException;
+use Ameliegardiner\SDK\Bitcoin\BIP32Key;
+use Ameliegardiner\SDK\Bitcoin\BIP32Path;
+use Ameliegardiner\SDK\Exceptions\BlocktrailSDKException;
 
 /**
  * Class Wallet

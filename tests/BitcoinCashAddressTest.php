@@ -1,6 +1,6 @@
 <?php
 
-namespace Blocktrail\SDK\Tests;
+namespace Ameliegardiner\SDK\Tests;
 
 
 use BitWasp\Bitcoin\Address\ScriptHashAddress;
@@ -8,7 +8,7 @@ use Btccom\BitcoinCash\Address\AddressCreator as BitcoinCashAddressCreator;
 use Btccom\BitcoinCash\Network\Networks\BitcoinCash;
 use Btccom\BitcoinCash\Network\Networks\BitcoinCashTestnet;
 use Btccom\BitcoinCash\Address\CashAddress;
-use Blocktrail\SDK\Exceptions\BlocktrailSDKException;
+use Ameliegardiner\SDK\Exceptions\BlocktrailSDKException;
 
 class BitcoinCashAddressTest extends BlocktrailTestCase
 {

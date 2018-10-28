@@ -1,6 +1,6 @@
 <?php
 
-namespace Blocktrail\SDK\Exceptions;
+namespace Ameliegardiner\SDK\Exceptions;
 
 class WalletDecryptException extends BlocktrailSDKException {
 

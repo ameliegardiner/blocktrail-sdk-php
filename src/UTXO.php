@@ -1,6 +1,6 @@
 <?php
 
-namespace Blocktrail\SDK;
+namespace Ameliegardiner\SDK;
 
 use BitWasp\Bitcoin\Address\AddressInterface;
 use BitWasp\Bitcoin\Script\ScriptInterface;

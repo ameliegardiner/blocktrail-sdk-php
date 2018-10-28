@@ -1,6 +1,6 @@
 <?php
 
-namespace Blocktrail\SDK\Backend;
+namespace Ameliegardiner\SDK\Backend;
 
 interface ConverterInterface {
     public function paginationParams($params);

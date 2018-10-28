@@ -1,10 +1,10 @@
 <?php
 
-namespace Blocktrail\SDK\Tests;
+namespace Ameliegardiner\SDK\Tests;
 
-use Blocktrail\SDK\BlocktrailSDK;
-use Blocktrail\SDK\Connection\Exceptions\ObjectNotFound;
-use Blocktrail\SDK\WalletInterface;
+use Ameliegardiner\SDK\BlocktrailSDK;
+use Ameliegardiner\SDK\Connection\Exceptions\ObjectNotFound;
+use Ameliegardiner\SDK\WalletInterface;
 
 abstract class BlocktrailTestCase extends \PHPUnit_Framework_TestCase {
 

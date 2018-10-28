@@ -1,15 +1,15 @@
 <?php
 
-namespace Blocktrail\SDK;
+namespace Ameliegardiner\SDK;
 
 use BitWasp\Bitcoin\Address\AddressCreator;
 use BitWasp\Bitcoin\Address\BaseAddressCreator;
 use BitWasp\Bitcoin\Key\Deterministic\HierarchicalKey;
 use BitWasp\Bitcoin\Key\Deterministic\HierarchicalKeyFactory;
 use BitWasp\Bitcoin\Mnemonic\Bip39\Bip39SeedGenerator;
-use Blocktrail\SDK\Bitcoin\BIP32Key;
-use Blocktrail\SDK\Exceptions\BlocktrailSDKException;
-use Blocktrail\SDK\Exceptions\NotImplementedException;
+use Ameliegardiner\SDK\Bitcoin\BIP32Key;
+use Ameliegardiner\SDK\Exceptions\BlocktrailSDKException;
+use Ameliegardiner\SDK\Exceptions\NotImplementedException;
 
 class WalletV1 extends Wallet {
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Blocktrail\SDK;
+namespace Ameliegardiner\SDK;
 
 /**
  * Class APIClient

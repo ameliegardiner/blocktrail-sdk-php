@@ -1,10 +1,10 @@
 <?php
 
-namespace Blocktrail\SDK\Tests;
+namespace Ameliegardiner\SDK\Tests;
 
 use BitWasp\Bitcoin\Key\Deterministic\HierarchicalKeyFactory;
-use Blocktrail\SDK\Bitcoin\BIP32Key;
-use Blocktrail\SDK\Bitcoin\BIP32Path;
+use Ameliegardiner\SDK\Bitcoin\BIP32Key;
+use Ameliegardiner\SDK\Bitcoin\BIP32Path;
 
 class BIP32KeyTest extends \PHPUnit_Framework_TestCase {
 

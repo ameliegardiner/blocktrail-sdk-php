@@ -1,9 +1,9 @@
 <?php
 
-namespace Blocktrail\SDK\Tests;
+namespace Ameliegardiner\SDK\Tests;
 
-use Blocktrail\SDK\Bitcoin\BIP32Path;
-use Blocktrail\SDK\WalletPath;
+use Ameliegardiner\SDK\Bitcoin\BIP32Path;
+use Ameliegardiner\SDK\WalletPath;
 
 class WalletPathTest extends \PHPUnit_Framework_TestCase {
 

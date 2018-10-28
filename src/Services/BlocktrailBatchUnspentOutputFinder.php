@@ -1,9 +1,9 @@
 <?php
 
-namespace Blocktrail\SDK\Services;
+namespace Ameliegardiner\SDK\Services;
 
-use Blocktrail\SDK\BlocktrailSDK;
-use Blocktrail\SDK\UnspentOutputFinder;
+use Ameliegardiner\SDK\BlocktrailSDK;
+use Ameliegardiner\SDK\UnspentOutputFinder;
 
 class BlocktrailBatchUnspentOutputFinder extends UnspentOutputFinder {
 

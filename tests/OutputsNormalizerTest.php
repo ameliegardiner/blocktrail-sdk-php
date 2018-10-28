@@ -1,14 +1,14 @@
 <?php
 
-namespace Blocktrail\SDK\Tests;
+namespace Ameliegardiner\SDK\Tests;
 
 use BitWasp\Bitcoin\Network\NetworkFactory as BitcoinNetworkFactory;
 use Btccom\BitcoinCash\Network\NetworkFactory as BitcoinCashNetworkFactory;
 use BitWasp\Bitcoin\Address\AddressCreator as BitcoinAddressCreator;
 use Btccom\BitcoinCash\Address\AddressCreator as BitcoinCashAddressCreator;
-use Blocktrail\SDK\Blocktrail;
-use Blocktrail\SDK\Exceptions\BlocktrailSDKException;
-use Blocktrail\SDK\OutputsNormalizer;
+use Ameliegardiner\SDK\Blocktrail;
+use Ameliegardiner\SDK\Exceptions\BlocktrailSDKException;
+use Ameliegardiner\SDK\OutputsNormalizer;
 
 class OutputsNormalizerTest extends BlocktrailTestCase
 {

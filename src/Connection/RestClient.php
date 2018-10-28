@@ -1,9 +1,9 @@
 <?php
 
-namespace Blocktrail\SDK\Connection;
+namespace Ameliegardiner\SDK\Connection;
 
-use Blocktrail\SDK\Blocktrail;
-use Blocktrail\SDK\Throttler;
+use Ameliegardiner\SDK\Blocktrail;
+use Ameliegardiner\SDK\Throttler;
 use GuzzleHttp\Client as Guzzle;
 use GuzzleHttp\Handler\CurlHandler;
 use GuzzleHttp\HandlerStack;

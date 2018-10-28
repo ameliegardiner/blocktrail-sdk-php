@@ -1,6 +1,6 @@
 <?php
 
-namespace Blocktrail\SDK\Tests;
+namespace Ameliegardiner\SDK\Tests;
 
 \error_reporting(E_ALL & ~E_DEPRECATED & ~E_STRICT);
 
@@ -9,9 +9,9 @@ use BitWasp\Bitcoin\Script\ScriptFactory;
 use BitWasp\Bitcoin\Transaction\TransactionFactory;
 use BitWasp\Bitcoin\Transaction\TransactionOutput;
 use BitWasp\Bitcoin\Transaction\TransactionOutputInterface;
-use Blocktrail\SDK\Services\BlocktrailBatchUnspentOutputFinder;
-use Blocktrail\SDK\Services\InsightUnspentOutputFinder;
-use Blocktrail\SDK\WalletV1Sweeper;
+use Ameliegardiner\SDK\Services\BlocktrailBatchUnspentOutputFinder;
+use Ameliegardiner\SDK\Services\InsightUnspentOutputFinder;
+use Ameliegardiner\SDK\WalletV1Sweeper;
 
 /**
  * Class WalletRecoveryTest

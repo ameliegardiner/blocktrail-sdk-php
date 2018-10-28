@@ -1,7 +1,7 @@
 <?php
 
-use Blocktrail\SDK\BlocktrailSDK;
-use Blocktrail\SDK\Connection\Exceptions\ObjectNotFound;
+use Ameliegardiner\SDK\BlocktrailSDK;
+use Ameliegardiner\SDK\Connection\Exceptions\ObjectNotFound;
 
 require_once __DIR__ . "/../vendor/autoload.php";
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Blocktrail\SDK;
+namespace Ameliegardiner\SDK;
 
-use Blocktrail\SDK\Bitcoin\BIP32Path;
+use Ameliegardiner\SDK\Bitcoin\BIP32Path;
 
 /**
  * Class WalletPath

@@ -1,8 +1,8 @@
 <?php
 
-namespace Blocktrail\SDK\Connection\Exceptions;
+namespace Ameliegardiner\SDK\Connection\Exceptions;
 
-use Blocktrail\SDK\Exceptions\BlocktrailSDKException;
+use Ameliegardiner\SDK\Exceptions\BlocktrailSDKException;
 
 /**
  * Class InvalidCredentials

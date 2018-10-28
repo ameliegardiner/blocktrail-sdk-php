@@ -1,6 +1,6 @@
 <?php
 
-namespace Blocktrail\SDK\Bitcoin;
+namespace Ameliegardiner\SDK\Bitcoin;
 
 use BitWasp\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Key\PublicKey;
 use BitWasp\Bitcoin\Crypto\EcAdapter\Key\PublicKeyInterface;

@@ -1,12 +1,12 @@
 <?php
 
-namespace Blocktrail\SDK;
+namespace Ameliegardiner\SDK;
 
 use BitWasp\Bitcoin\Mnemonic\MnemonicFactory;
 use BitWasp\Buffertools\BufferInterface;
-use Blocktrail\SDK\Exceptions\BlocktrailSDKException;
-use Blocktrail\SDK\V3Crypt\Encryption;
-use Blocktrail\SDK\V3Crypt\EncryptionMnemonic;
+use Ameliegardiner\SDK\Exceptions\BlocktrailSDKException;
+use Ameliegardiner\SDK\V3Crypt\Encryption;
+use Ameliegardiner\SDK\V3Crypt\EncryptionMnemonic;
 
 class WalletV3Sweeper extends WalletSweeper
 {

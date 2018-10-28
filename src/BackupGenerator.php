@@ -1,9 +1,9 @@
 <?php
 
-namespace Blocktrail\SDK;
+namespace Ameliegardiner\SDK;
 
 use BitWasp\Bitcoin\Key\Deterministic\HierarchicalKeyFactory;
-use Blocktrail\SDK\Bitcoin\BIP32Key;
+use Ameliegardiner\SDK\Bitcoin\BIP32Key;
 use Endroid\QrCode\QrCode;
 
 /**

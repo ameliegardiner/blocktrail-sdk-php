@@ -1,5 +1,5 @@
 {
-    "name": "blocktrail/blocktrail-sdk",
+    "name": "ameliegardiner/blocktrail-sdk",
     "description": "The BlockTrail PHP SDK, for integration of Bitcoin functionality through the BlockTrail API",
     "keywords": ["blocktrail", "bitcoin", "sdk", "api", "blockchain", "payment", "bitcoin data", "wallet", "multi-signature", "transaction"],
     "authors": [
@@ -14,12 +14,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Blocktrail\\SDK\\": "src/"
+            "Ameliegardiner\\SDK\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Blocktrail\\SDK\\Tests\\": "tests/"
+            "Ameliegardiner\\SDK\\Tests\\": "tests/"
         }
     },
     "license": "MIT",

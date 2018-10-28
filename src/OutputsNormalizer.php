@@ -1,6 +1,6 @@
 <?php
 
-namespace Blocktrail\SDK;
+namespace Ameliegardiner\SDK;
 
 use BitWasp\Bitcoin\Address\BaseAddressCreator;
 use BitWasp\Bitcoin\Bitcoin;
@@ -9,7 +9,7 @@ use BitWasp\Bitcoin\Network\NetworkInterface;
 use BitWasp\Bitcoin\Script\Opcodes;
 use BitWasp\Bitcoin\Script\ScriptFactory;
 use BitWasp\Buffertools\Buffer;
-use Blocktrail\SDK\Exceptions\BlocktrailSDKException;
+use Ameliegardiner\SDK\Exceptions\BlocktrailSDKException;
 
 class OutputsNormalizer
 {

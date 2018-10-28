@@ -5,8 +5,8 @@
  * This script is in place for old wallets, new wallets should use `examples/wallet_v2_recovery_example.php`
  */
 
-use Blocktrail\SDK\Services\BlocktrailBatchUnspentOutputFinder;
-use Blocktrail\SDK\WalletV1Sweeper;
+use Ameliegardiner\SDK\Services\BlocktrailBatchUnspentOutputFinder;
+use Ameliegardiner\SDK\WalletV1Sweeper;
 
 require_once __DIR__ . "/../vendor/autoload.php";
 

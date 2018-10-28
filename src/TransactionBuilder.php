@@ -1,13 +1,13 @@
 <?php
 
-namespace Blocktrail\SDK;
+namespace Ameliegardiner\SDK;
 
 use BitWasp\Bitcoin\Address\AddressInterface;
 use BitWasp\Bitcoin\Address\BaseAddressCreator;
 use BitWasp\Bitcoin\Script\ScriptFactory;
 use BitWasp\Bitcoin\Script\ScriptInterface;
 use BitWasp\Buffertools\Buffer;
-use Blocktrail\SDK\Exceptions\BlocktrailSDKException;
+use Ameliegardiner\SDK\Exceptions\BlocktrailSDKException;
 
 /**
  * Class TransactionBuilder

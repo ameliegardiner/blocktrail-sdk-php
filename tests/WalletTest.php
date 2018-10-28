@@ -1,6 +1,6 @@
 <?php
 
-namespace Blocktrail\SDK\Tests;
+namespace Ameliegardiner\SDK\Tests;
 
 \error_reporting(E_ALL & ~E_DEPRECATED & ~E_STRICT);
 
@@ -20,23 +20,23 @@ use BitWasp\Bitcoin\Transaction\TransactionInterface;
 use BitWasp\Bitcoin\Transaction\TransactionOutput;
 use BitWasp\Buffertools\Buffer;
 
-use Blocktrail\CryptoJSAES\CryptoJSAES;
+use Ameliegardiner\CryptoJSAES\CryptoJSAES;
 use BitWasp\Bitcoin\Address\AddressCreator as BitcoinAddressCreator;
-use Blocktrail\SDK\Bitcoin\BIP32Key;
-use Blocktrail\SDK\Blocktrail;
-use Blocktrail\SDK\BlocktrailSDK;
-use Blocktrail\SDK\BlocktrailSDKInterface;
-use Blocktrail\SDK\Connection\Exceptions\ObjectNotFound;
-use Blocktrail\SDK\Exceptions\BlocktrailSDKException;
-use Blocktrail\SDK\SignInfo;
-use Blocktrail\SDK\TransactionBuilder;
-use Blocktrail\SDK\Wallet;
-use Blocktrail\SDK\WalletInterface;
-use Blocktrail\SDK\WalletPath;
-use Blocktrail\SDK\WalletScript;
-use Blocktrail\SDK\WalletV1;
-use Blocktrail\SDK\WalletV2;
-use Blocktrail\SDK\WalletV3;
+use Ameliegardiner\SDK\Bitcoin\BIP32Key;
+use Ameliegardiner\SDK\Blocktrail;
+use Ameliegardiner\SDK\BlocktrailSDK;
+use Ameliegardiner\SDK\BlocktrailSDKInterface;
+use Ameliegardiner\SDK\Connection\Exceptions\ObjectNotFound;
+use Ameliegardiner\SDK\Exceptions\BlocktrailSDKException;
+use Ameliegardiner\SDK\SignInfo;
+use Ameliegardiner\SDK\TransactionBuilder;
+use Ameliegardiner\SDK\Wallet;
+use Ameliegardiner\SDK\WalletInterface;
+use Ameliegardiner\SDK\WalletPath;
+use Ameliegardiner\SDK\WalletScript;
+use Ameliegardiner\SDK\WalletV1;
+use Ameliegardiner\SDK\WalletV2;
+use Ameliegardiner\SDK\WalletV3;
 
 /**
  * Class WalletTest
@@ -47,7 +47,7 @@ use Blocktrail\SDK\WalletV3;
  *  without our private keys having to leaving our safe production environment
  *
  *
- * @package Blocktrail\SDK\Tests
+ * @package Ameliegardiner\SDK\Tests
  */
 class WalletTest extends BlocktrailTestCase {
     const DEFAULT_WALLET_VERSION = 'v3';

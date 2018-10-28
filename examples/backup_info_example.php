@@ -1,7 +1,7 @@
 <?php
 
-use Blocktrail\SDK\BackupGenerator;
-use Blocktrail\SDK\BlocktrailSDK;
+use Ameliegardiner\SDK\BackupGenerator;
+use Ameliegardiner\SDK\BlocktrailSDK;
 
 require_once __DIR__ . "/../vendor/autoload.php";
 

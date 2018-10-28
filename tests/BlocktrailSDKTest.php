@@ -1,10 +1,10 @@
 <?php
 
-namespace Blocktrail\SDK\Tests;
+namespace Ameliegardiner\SDK\Tests;
 
-use Blocktrail\SDK\Connection\RestClientInterface;
-use Blocktrail\SDK\BlocktrailSDK;
-use Blocktrail\SDK\Connection\Exceptions\InvalidCredentials;
+use Ameliegardiner\SDK\Connection\RestClientInterface;
+use Ameliegardiner\SDK\BlocktrailSDK;
+use Ameliegardiner\SDK\Connection\Exceptions\InvalidCredentials;
 
 class BlocktrailSDKTest extends BlocktrailTestCase
 {

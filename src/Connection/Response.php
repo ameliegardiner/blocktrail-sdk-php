@@ -1,6 +1,6 @@
 <?php
 
-namespace Blocktrail\SDK\Connection;
+namespace Ameliegardiner\SDK\Connection;
 
 use Psr\Http\Message\StreamInterface;
 

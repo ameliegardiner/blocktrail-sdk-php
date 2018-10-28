@@ -1,6 +1,6 @@
 <?php
 
-namespace Blocktrail\SDK;
+namespace Ameliegardiner\SDK;
 
 abstract class Util {
     public static function all(callable $fn, array $arr) {

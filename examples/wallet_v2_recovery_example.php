@@ -1,7 +1,7 @@
 <?php
 
-use Blocktrail\SDK\Services\BlocktrailBatchUnspentOutputFinder;
-use Blocktrail\SDK\WalletV2Sweeper;
+use Ameliegardiner\SDK\Services\BlocktrailBatchUnspentOutputFinder;
+use Ameliegardiner\SDK\WalletV2Sweeper;
 
 require_once __DIR__ . "/../vendor/autoload.php";
 

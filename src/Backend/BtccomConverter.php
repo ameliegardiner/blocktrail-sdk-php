@@ -1,14 +1,14 @@
 <?php
 
-namespace Blocktrail\SDK\Backend;
+namespace Ameliegardiner\SDK\Backend;
 
 use BitWasp\Bitcoin\Address\AddressFactory;
 use BitWasp\Bitcoin\Script\Classifier\OutputClassifier;
 use BitWasp\Bitcoin\Script\ScriptType;
 use BitWasp\Bitcoin\Transaction\Transaction;
 use BitWasp\Bitcoin\Transaction\TransactionInput;
-use Blocktrail\SDK\BlocktrailSDK;
-use Blocktrail\SDK\Connection\Exceptions\EndpointSpecificError;
+use Ameliegardiner\SDK\BlocktrailSDK;
+use Ameliegardiner\SDK\Connection\Exceptions\EndpointSpecificError;
 
 class BtccomConverter implements ConverterInterface {
     public function paginationParams($params) {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Blocktrail\SDK;
+namespace Ameliegardiner\SDK;
 
 use BitWasp\Bitcoin\Address\PayToPubKeyHashAddress;
 use BitWasp\Bitcoin\Bitcoin;
@@ -18,24 +18,24 @@ use BitWasp\Bitcoin\Network\NetworkFactory;
 use BitWasp\Bitcoin\Transaction\TransactionFactory;
 use BitWasp\Buffertools\Buffer;
 use BitWasp\Buffertools\BufferInterface;
-use Blocktrail\CryptoJSAES\CryptoJSAES;
-use Blocktrail\SDK\Address\AddressReaderBase;
-use Blocktrail\SDK\Address\BitcoinAddressReader;
-use Blocktrail\SDK\Address\BitcoinCashAddressReader;
-use Blocktrail\SDK\Address\CashAddress;
-use Blocktrail\SDK\Backend\BlocktrailConverter;
-use Blocktrail\SDK\Backend\BtccomConverter;
-use Blocktrail\SDK\Backend\ConverterInterface;
-use Blocktrail\SDK\Bitcoin\BIP32Key;
-use Blocktrail\SDK\Connection\RestClient;
-use Blocktrail\SDK\Exceptions\BlocktrailSDKException;
-use Blocktrail\SDK\Network\BitcoinCash;
-use Blocktrail\SDK\Connection\RestClientInterface;
-use Blocktrail\SDK\Network\BitcoinCashRegtest;
-use Blocktrail\SDK\Network\BitcoinCashTestnet;
-use Blocktrail\SDK\V3Crypt\Encryption;
-use Blocktrail\SDK\V3Crypt\EncryptionMnemonic;
-use Blocktrail\SDK\V3Crypt\KeyDerivation;
+use Ameliegardiner\CryptoJSAES\CryptoJSAES;
+use Ameliegardiner\SDK\Address\AddressReaderBase;
+use Ameliegardiner\SDK\Address\BitcoinAddressReader;
+use Ameliegardiner\SDK\Address\BitcoinCashAddressReader;
+use Ameliegardiner\SDK\Address\CashAddress;
+use Ameliegardiner\SDK\Backend\BlocktrailConverter;
+use Ameliegardiner\SDK\Backend\BtccomConverter;
+use Ameliegardiner\SDK\Backend\ConverterInterface;
+use Ameliegardiner\SDK\Bitcoin\BIP32Key;
+use Ameliegardiner\SDK\Connection\RestClient;
+use Ameliegardiner\SDK\Exceptions\BlocktrailSDKException;
+use Ameliegardiner\SDK\Network\BitcoinCash;
+use Ameliegardiner\SDK\Connection\RestClientInterface;
+use Ameliegardiner\SDK\Network\BitcoinCashRegtest;
+use Ameliegardiner\SDK\Network\BitcoinCashTestnet;
+use Ameliegardiner\SDK\V3Crypt\Encryption;
+use Ameliegardiner\SDK\V3Crypt\EncryptionMnemonic;
+use Ameliegardiner\SDK\V3Crypt\KeyDerivation;
 
 class Throttler {
 

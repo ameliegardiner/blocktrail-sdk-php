@@ -1,6 +1,6 @@
 <?php
 
-namespace Blocktrail\SDK;
+namespace Ameliegardiner\SDK;
 
 use Btccom\BitcoinCash\Address\CashAddress;
 use Btccom\BitcoinCash\Address\AddressCreator as BitcoinCashAddressCreator;
@@ -24,9 +24,9 @@ use BitWasp\Bitcoin\Transaction\TransactionInterface;
 use BitWasp\Bitcoin\Transaction\TransactionOutput;
 use BitWasp\Buffertools\Buffer;
 use BitWasp\Buffertools\BufferInterface;
-use Blocktrail\SDK\Bitcoin\BIP32Key;
-use Blocktrail\SDK\Bitcoin\BIP32Path;
-use Blocktrail\SDK\Exceptions\BlocktrailSDKException;
+use Ameliegardiner\SDK\Bitcoin\BIP32Key;
+use Ameliegardiner\SDK\Bitcoin\BIP32Path;
+use Ameliegardiner\SDK\Exceptions\BlocktrailSDKException;
 
 abstract class WalletSweeper {
 

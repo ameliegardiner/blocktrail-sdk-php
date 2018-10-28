@@ -6,7 +6,7 @@
  * Time: 3:13 PM
  */
 
-namespace Blocktrail\SDK\Tests;
+namespace Ameliegardiner\SDK\Tests;
 
 class WebhookTest extends BlocktrailTestCase
 {

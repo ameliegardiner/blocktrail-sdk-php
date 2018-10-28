@@ -1,8 +1,8 @@
 <?php
 
-namespace Blocktrail\SDK\Tests;
+namespace Ameliegardiner\SDK\Tests;
 
-use Blocktrail\SDK\Util;
+use Ameliegardiner\SDK\Util;
 
 class UtilTest extends BlocktrailTestCase
 {

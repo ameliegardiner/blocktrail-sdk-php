@@ -1,10 +1,10 @@
 <?php
 
-use Blocktrail\SDK\BlocktrailSDK;
-use Blocktrail\SDK\Connection\Exceptions\ObjectNotFound;
-use Blocktrail\SDK\TransactionBuilder;
-use Blocktrail\SDK\UTXO;
-use Blocktrail\SDK\Wallet;
+use Ameliegardiner\SDK\BlocktrailSDK;
+use Ameliegardiner\SDK\Connection\Exceptions\ObjectNotFound;
+use Ameliegardiner\SDK\TransactionBuilder;
+use Ameliegardiner\SDK\UTXO;
+use Ameliegardiner\SDK\Wallet;
 
 require_once __DIR__ . "/../vendor/autoload.php";
 

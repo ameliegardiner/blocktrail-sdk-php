@@ -1,11 +1,11 @@
 <?php
 
-namespace Blocktrail\SDK;
+namespace Ameliegardiner\SDK;
 
 use BitWasp\Bitcoin\Address\BaseAddressCreator;
-use Blocktrail\SDK\Bitcoin\BIP32Key;
-use Blocktrail\SDK\Bitcoin\BIP32Path;
-use Blocktrail\SDK\Exceptions\BlocktrailSDKException;
+use Ameliegardiner\SDK\Bitcoin\BIP32Key;
+use Ameliegardiner\SDK\Bitcoin\BIP32Path;
+use Ameliegardiner\SDK\Exceptions\BlocktrailSDKException;
 
 /**
  * Interface Wallet

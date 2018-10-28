@@ -1,6 +1,6 @@
 <?php
 
-namespace Blocktrail\SDK\Connection;
+namespace Ameliegardiner\SDK\Connection;
 
 use GuzzleHttp\Psr7\Request;
 use Psr\Http\Message\ResponseInterface;

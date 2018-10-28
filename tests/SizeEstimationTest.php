@@ -1,6 +1,6 @@
 <?php
 
-namespace Blocktrail\SDK\Tests;
+namespace Ameliegardiner\SDK\Tests;
 
 use BitWasp\Bitcoin\Address\SegwitAddress;
 use BitWasp\Bitcoin\Network\NetworkFactory;
@@ -15,12 +15,12 @@ use BitWasp\Bitcoin\Transaction\Factory\SignData;
 use BitWasp\Bitcoin\Transaction\Factory\Signer;
 use BitWasp\Bitcoin\Transaction\Factory\TxBuilder;
 use BitWasp\Bitcoin\Transaction\TransactionOutput;
-use Blocktrail\SDK\SizeEstimation;
+use Ameliegardiner\SDK\SizeEstimation;
 use \BitWasp\Bitcoin\Key\PrivateKeyFactory;
-use Blocktrail\SDK\TransactionBuilder;
-use Blocktrail\SDK\UTXO;
-use Blocktrail\SDK\Bitcoin\BIP32Path;
-use Blocktrail\SDK\Wallet;
+use Ameliegardiner\SDK\TransactionBuilder;
+use Ameliegardiner\SDK\UTXO;
+use Ameliegardiner\SDK\Bitcoin\BIP32Path;
+use Ameliegardiner\SDK\Wallet;
 use Mdanter\Ecc\Crypto\Key\PrivateKeyInterface;
 
 class SizeEstimationTest extends BlocktrailTestCase

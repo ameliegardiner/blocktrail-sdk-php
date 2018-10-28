@@ -1,13 +1,13 @@
 <?php
 
-namespace Blocktrail\SDK\Bitcoin;
+namespace Ameliegardiner\SDK\Bitcoin;
 
 /**
  * Class BIP32Path
  *
  * BIP32 path, does not mutate itself but returns new instance everytime
  *
- * @package Blocktrail\SDK
+ * @package Ameliegardiner\SDK
  */
 class BIP32Path implements \ArrayAccess {
     protected $path;

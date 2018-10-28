@@ -1,6 +1,6 @@
 <?php
 
-namespace Blocktrail\SDK\Tests\Network;
+namespace Ameliegardiner\SDK\Tests\Network;
 
 use BitWasp\Buffertools\Buffer;
 use Btccom\BitcoinCash\Address\CashAddress;
@@ -24,7 +24,7 @@ class BitcoinCashTest extends \PHPUnit_Framework_TestCase
      * @param $type
      * @param $hashHex
      * @param $expected
-     * @throws \Blocktrail\SDK\Exceptions\BlocktrailSDKException
+     * @throws \Ameliegardiner\SDK\Exceptions\BlocktrailSDKException
      * @throws \CashAddr\Exception\Base32Exception
      * @throws \CashAddr\Exception\CashAddressException
      * @throws \Exception

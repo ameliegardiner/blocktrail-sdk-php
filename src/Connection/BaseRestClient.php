@@ -1,19 +1,19 @@
 <?PHP
 
-namespace Blocktrail\SDK\Connection;
+namespace Ameliegardiner\SDK\Connection;
 
-use Blocktrail\SDK\Connection\Exceptions\BannedIP;
+use Ameliegardiner\SDK\Connection\Exceptions\BannedIP;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Uri;
-use Blocktrail\SDK\Blocktrail;
-use Blocktrail\SDK\Connection\Exceptions\EndpointSpecificError;
-use Blocktrail\SDK\Connection\Exceptions\GenericServerError;
-use Blocktrail\SDK\Connection\Exceptions\ObjectNotFound;
-use Blocktrail\SDK\Connection\Exceptions\UnknownEndpointSpecificError;
-use Blocktrail\SDK\Connection\Exceptions\EmptyResponse;
-use Blocktrail\SDK\Connection\Exceptions\InvalidCredentials;
-use Blocktrail\SDK\Connection\Exceptions\MissingEndpoint;
-use Blocktrail\SDK\Connection\Exceptions\GenericHTTPError;
+use Ameliegardiner\SDK\Blocktrail;
+use Ameliegardiner\SDK\Connection\Exceptions\EndpointSpecificError;
+use Ameliegardiner\SDK\Connection\Exceptions\GenericServerError;
+use Ameliegardiner\SDK\Connection\Exceptions\ObjectNotFound;
+use Ameliegardiner\SDK\Connection\Exceptions\UnknownEndpointSpecificError;
+use Ameliegardiner\SDK\Connection\Exceptions\EmptyResponse;
+use Ameliegardiner\SDK\Connection\Exceptions\InvalidCredentials;
+use Ameliegardiner\SDK\Connection\Exceptions\MissingEndpoint;
+use Ameliegardiner\SDK\Connection\Exceptions\GenericHTTPError;
 use Psr\Http\Message\ResponseInterface;
 
 /**

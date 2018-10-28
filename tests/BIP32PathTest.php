@@ -1,8 +1,8 @@
 <?php
 
-namespace Blocktrail\SDK\Tests;
+namespace Ameliegardiner\SDK\Tests;
 
-use Blocktrail\SDK\Bitcoin\BIP32Path;
+use Ameliegardiner\SDK\Bitcoin\BIP32Path;
 
 class BIP32PathTest extends \PHPUnit_Framework_TestCase {
 

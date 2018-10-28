@@ -1,8 +1,8 @@
 <?php
 
-use Blocktrail\SDK\BackupGenerator;
-use Blocktrail\SDK\BlocktrailSDK;
-use Blocktrail\SDK\WalletInterface;
+use Ameliegardiner\SDK\BackupGenerator;
+use Ameliegardiner\SDK\BlocktrailSDK;
+use Ameliegardiner\SDK\WalletInterface;
 
 require_once __DIR__ . "/../vendor/autoload.php";
 

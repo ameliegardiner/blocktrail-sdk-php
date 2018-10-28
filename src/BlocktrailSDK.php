@@ -1,6 +1,6 @@
 <?php
 
-namespace Blocktrail\SDK;
+namespace Ameliegardiner\SDK;
 
 use Btccom\BitcoinCash\Address\AddressCreator as BitcoinCashAddressCreator;
 use Btccom\BitcoinCash\Address\CashAddress;
@@ -22,15 +22,15 @@ use BitWasp\Bitcoin\Network\NetworkFactory as BitcoinNetworkFactory;
 use BitWasp\Bitcoin\Transaction\TransactionFactory;
 use BitWasp\Buffertools\Buffer;
 use BitWasp\Buffertools\BufferInterface;
-use Blocktrail\CryptoJSAES\CryptoJSAES;
+use Ameliegardiner\CryptoJSAES\CryptoJSAES;
 use BitWasp\Bitcoin\Address\BaseAddressCreator;
-use Blocktrail\SDK\Backend\BlocktrailConverter;
-use Blocktrail\SDK\Backend\BtccomConverter;
-use Blocktrail\SDK\Backend\ConverterInterface;
-use Blocktrail\SDK\Bitcoin\BIP32Key;
-use Blocktrail\SDK\Connection\RestClient;
-use Blocktrail\SDK\Exceptions\BlocktrailSDKException;
-use Blocktrail\SDK\Connection\RestClientInterface;
+use Ameliegardiner\SDK\Backend\BlocktrailConverter;
+use Ameliegardiner\SDK\Backend\BtccomConverter;
+use Ameliegardiner\SDK\Backend\ConverterInterface;
+use Ameliegardiner\SDK\Bitcoin\BIP32Key;
+use Ameliegardiner\SDK\Connection\RestClient;
+use Ameliegardiner\SDK\Exceptions\BlocktrailSDKException;
+use Ameliegardiner\SDK\Connection\RestClientInterface;
 use Btccom\JustEncrypt\Encryption;
 use Btccom\JustEncrypt\EncryptionMnemonic;
 use Btccom\JustEncrypt\KeyDerivation;

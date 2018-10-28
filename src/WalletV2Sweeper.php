@@ -1,13 +1,13 @@
 <?php
 
-namespace Blocktrail\SDK;
+namespace Ameliegardiner\SDK;
 
 use BitWasp\Bitcoin\Mnemonic\MnemonicFactory;
 use BitWasp\Buffertools\Buffer;
-use Blocktrail\CryptoJSAES\CryptoJSAES;
+use Ameliegardiner\CryptoJSAES\CryptoJSAES;
 
 
-use Blocktrail\SDK\Exceptions\BlocktrailSDKException;
+use Ameliegardiner\SDK\Exceptions\BlocktrailSDKException;
 
 class WalletV2Sweeper extends WalletSweeper {
 

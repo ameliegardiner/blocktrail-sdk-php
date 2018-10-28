@@ -1,6 +1,6 @@
 <?php
 
-use Blocktrail\SDK\BlocktrailSDK;
+use Ameliegardiner\SDK\BlocktrailSDK;
 
 require_once __DIR__ . "/../vendor/autoload.php";
 

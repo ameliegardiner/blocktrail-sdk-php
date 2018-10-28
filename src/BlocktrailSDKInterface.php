@@ -1,8 +1,8 @@
 <?php
 
-namespace Blocktrail\SDK;
+namespace Ameliegardiner\SDK;
 
-use Blocktrail\SDK\Connection\BaseRestClient;
+use Ameliegardiner\SDK\Connection\BaseRestClient;
 
 /**
  * Interface BlocktrailSDK
